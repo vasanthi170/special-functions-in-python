@@ -1,0 +1,5 @@
+def mult(ch):
+    return ch*3
+print(map(mult,'abcd'))
+print(list(map(mult,'abcd')))
+    
