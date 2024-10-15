@@ -1,0 +1,7 @@
+def prime(num):
+    for val in range(2,num//2+1):
+        if num % val == 0:
+            return False
+        else:
+            return True
+print(list(filter(prime,range(10,20))))
